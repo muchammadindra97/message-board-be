@@ -36,7 +36,7 @@
                                                     "id": {
                                                         "type": "integer"
                                                     },
-                                                    "message": {
+                                                    "content": {
                                                         "type": "string"
                                                     },
                                                     "created_at": {
@@ -89,7 +89,7 @@
                                     "name": {
                                         "type": "string"
                                     },
-                                    "message": {
+                                    "content": {
                                         "type": "string"
                                     }
                                 }
@@ -111,7 +111,7 @@
                                                 "id": {
                                                     "type": "integer"
                                                 },
-                                                "message": {
+                                                "content": {
                                                     "type": "string"
                                                 },
                                                 "created_at": {
@@ -173,7 +173,7 @@
                                                 "id": {
                                                     "type": "integer"
                                                 },
-                                                "message": {
+                                                "content": {
                                                     "type": "string"
                                                 },
                                                 "created_at": {
@@ -231,7 +231,7 @@
                                     "name": {
                                         "type": "string"
                                     },
-                                    "message": {
+                                    "content": {
                                         "type": "string"
                                     }
                                 }
@@ -253,7 +253,7 @@
                                                 "id": {
                                                     "type": "integer"
                                                 },
-                                                "message": {
+                                                "content": {
                                                     "type": "string"
                                                 },
                                                 "created_at": {
