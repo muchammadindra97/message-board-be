@@ -80,7 +80,7 @@ class MessageController extends Controller
         return (new MessageResource($message))->response()->setStatusCode(HttpStatusCode::OK);
     }
 
-    public function destroy($id)
+    public function destroy($id): JsonResponse
     {
         $message = Message::findOrFail($id);
         $message->delete();
